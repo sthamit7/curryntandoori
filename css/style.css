@@ -24,7 +24,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Playfair Display", Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
@@ -176,14 +176,9 @@ textarea.form-control {
   width: 100%;
 }
 
-.site-header .site-logo {
-  line-height: 0;
-  padding: 10px 20px;
-  border: 2px solid #fff;
-  color: #fff;
-
-  /*font-size: 30px;*/
-
+.site-header .site-logo img {
+  max-width: 150px;
+  max-height: 150px;
 }
 
 .site-header .social li {
@@ -201,7 +196,7 @@ textarea.form-control {
 
 .site-header.scrolled {
   position: fixed;
-  padding: 1em 30px;
+  padding: .1em 30px;
   top: 0;
   background: #fff;
   -webkit-transition: .0s all ease;
@@ -222,14 +217,16 @@ textarea.form-control {
   color: #000;
 }
 
-.site-header.scrolled .site-logo {
-  line-height: 1.2;
+.site-header.scrolled .site-logo img {
+  max-width: 110px;
+  max-height: 110px;
+  /*line-height: 1.2;
   display: inline-block;
   position: relative;
   padding: 10px 20px;
   border: 2px solid #000;
   color: #000;
-  font-size: 30px;
+  font-size: 30px;*/
 }
 
 .site-header.scrolled .site-nav-toggle {
