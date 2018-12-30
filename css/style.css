@@ -218,8 +218,8 @@ textarea.form-control {
 }
 
 .site-header.scrolled .site-logo img {
-  max-width: 110px;
-  max-height: 110px;
+  max-width: 90px;
+  max-height: 90px;
   /*line-height: 1.2;
   display: inline-block;
   position: relative;
